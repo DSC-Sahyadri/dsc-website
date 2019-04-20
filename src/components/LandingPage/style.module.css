@@ -1,0 +1,16 @@
+.container{
+    padding-left: 100px;
+}
+
+.content{
+    padding-top: 200px;
+    padding-left: 100px;
+    box-shadow: 15px;
+    
+    border-bottom: 22px solid;
+   
+}
+
+p{
+    padding-left: 100px;
+}
