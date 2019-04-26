@@ -1,5 +1,5 @@
 import React from "react";
-import "./style.css";
+import style from "./style.module.css";
 import { StaticQuery, graphql } from "gatsby";
 import Img from "gatsby-image";
 import { Link } from "gatsby"
@@ -25,34 +25,34 @@ const LandingPage = ({ props }) => (
     `}
     render={data => (
       <div>
-      <div className="container">
-        <div className="content">
-          <p className="DSCS">DSCS</p>
+      <div className={style.container}>
+        <div className={style.content}>
+          <p className={style.DSCS}>DSCS</p>
 
-          <p className="title">Developer Students Club</p>
+          <p className={style.title}>Developer Students Club</p>
           <br />
-          <p className="sahyadri">Sahyadri</p>
+          <p className={style.sahyadri}>Sahyadri</p>
 
           <br />
           <br />
-          <p className="Landingpagecontent">
+          <p className={style.Landingpagecontent}>
             Provied native app and Web Development skills for Students to Help{" "}
             <br />
             them work towards Employability
           </p>
-          <div className="landingfooter">
+          <div className={style.landingfooter}>
      
-        <button className="herobutton">Learn More</button>
+        <button className={style.herobutton}>Learn More</button>
      </div>
         </div>
-        <div className="solid">
+        <div className={style.solid}>
           <Img
             fluid={data.imageSecond.childImageSharp.fluid}
-            className="hero1"
+            className={style.hero1}
           />
           <Img
             fluid={data.imageFirst.childImageSharp.fluid}
-            className="hero2"
+            className={style.hero2}
           />
         </div>
         

@@ -1,16 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700,800');
+
+body{
+    margin: auto;
+
+}
 .container{
-    padding-left: 100px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+
+
 }
 
 .content{
-    padding-top: 200px;
-    padding-left: 100px;
-    box-shadow: 15px;
+    padding-left: 60px;
+    padding-top: 120px;
+    font-family:'Open Sans',sans-serif;
+    font-weight: 700;
+    font-size: 25px;
     
-    border-bottom: 22px solid;
+    
+    
    
 }
+.title{
+    font-family:'Open Sans',sans-serif;
+    font-weight: 800;
+    font-size: 50px;
+}
+.image{
+    padding-left: 60px;
+    width: 350px;
+    height: 50px;
+    font-family:'Open Sans',sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    min-width: 300px;
+    min-height: 50px;
+}
 
-p{
-    padding-left: 100px;
+
+.solid{
+    width: 550px;
+    height: 480px;
+    position: relative;
+    background-color:rgba(66, 133, 244, 0.06);
+    z-index: -1;
+    top:60px;
+    right: 150px;
+ 
+    
+}
+
+.sahyadri{
+    font-family:'Open Sans',sans-serif;
+    font-weight: 800;
+    font-size: 50px;
+    color: rgba(10, 54, 124, 0.6);
+
+}
+.Landingpagecontent{
+    font-family:'Open Sans',sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    position: relative;
+    color: rgb(0, 0, 0,0.4)
+}
+
+.DSCS{
+    color: rgba(6, 28, 75, 0.8);
+}
+.hero2{
+    position: relative;
+    left:180px;
+    bottom: 40px;
+    width: 500px;
+   
+}
+.hero1{
+    position: relative;
+    width: 290px;
+    left: 300px;
+    top: 60px;
+  
+}
+
+.herobutton{
+     border-radius: 30px;
+     padding: 5px;
+     width: 180px;
+     height: 40px;
+     font-family:'Open Sans',sans-serif;
+     font-weight: 700;
+     color: white;
+     font-size: 15px;
+     background-color: rgb(9, 33, 70);
+     border: none;
+}
+.landingfooter{
+    
+padding-top: 10px;
+   
+}
+.Contact{
+    float: right;
 }
