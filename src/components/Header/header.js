@@ -13,7 +13,7 @@ const Header = ({ props }) => (
       }
     }
     query{
-    imageFirst: file(relativePath: { eq: "logo_gray.png" }) {
+    imageFirst: file(relativePath: { eq: "logo3.png" }) {
       ...firstSiteImages
     }
   
@@ -25,10 +25,11 @@ const Header = ({ props }) => (
         <>
           <div className={style.Menu}>
             <div className={style.image}>
-              <Img
+              {/* <Img
                 fluid={data.imageFirst.childImageSharp.fluid}
                 className={style.dsc_logo}
-              />
+              /> */}
+              <p className={style.title}>DSCS</p>
             </div>
             <div className={style.list}>
               <ul>

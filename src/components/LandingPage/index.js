@@ -27,8 +27,6 @@ const LandingPage = ({ props }) => (
       <div>
       <div className={style.container}>
         <div className={style.content}>
-          <p className={style.DSCS}>DSCS</p>
-
           <p className={style.title}>Developer Students Club</p>
           <br />
           <p className={style.sahyadri}>Sahyadri</p>

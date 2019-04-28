@@ -27,8 +27,8 @@
     font-family:'Open Sans',sans-serif;
     padding-top: 40px;
     width: 500px;
-
-    color: rgb(0, 0, 0,0.4)
+    font-size: 17px;
+    color: rgb(0, 0, 0,)
 }
 .about{
     width: 600px;

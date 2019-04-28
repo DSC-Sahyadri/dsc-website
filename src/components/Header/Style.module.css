@@ -1,7 +1,7 @@
 
 
 
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700,800');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800');
 .Menu{
     padding-top:30px; 
     display: flex;
@@ -19,8 +19,10 @@ ul{
     justify-content: space-evenly;
     font-family:'Open Sans',sans-serif;
     list-style-type: none;
-    font-weight: 700;
-    color: rgba(6, 28, 75, 0.8);
+    font-weight: 600;
+    color:rgb(0, 0, 0,0.7);
+    font-size: 17px;;
+
 
     padding-top: 0;
   
@@ -33,17 +35,25 @@ li{
 
 .list{
 
-    padding-left: 100px;
+    padding-left: 300px;
+    padding-right:100px; 
     width:1000px;
 }  
 
 
 .image{
-    padding-left: 100px;
+    
     width: 350px;
     height: 50px;
-    
+    display: flex;
+    justify-content: space-evenly;
     font-weight: 700;
     min-width: 300px;
     min-height: 50px;
+}
+.title{
+    font-family:'Open Sans',sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    
 }
