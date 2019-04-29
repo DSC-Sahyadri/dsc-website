@@ -6,10 +6,11 @@ body{
 }
 .container{
    display: flex;
-   flex-wrap: wrap;
+
    justify-content: space-evenly;
-
-
+}
+body{
+    overflow: hidden;
 }
 
 .content{
@@ -18,15 +19,19 @@ body{
     font-family:'Open Sans',sans-serif;
     font-weight: 700;
     font-size: 25px;
-    
+    width: 100%;
     
     
    
+}
+p{
+    margin: 0px;
 }
 .title{
     font-family:'Open Sans',sans-serif;
     font-weight: 800;
     font-size: 50px;
+    line-height: 50px;
     padding-top: 50px;
 }
 .image{
@@ -88,6 +93,7 @@ body{
 
 .herobutton{
      border-radius: 30px;
+     margin-top: 30px;
      padding: 5px;
      width: 180px;
      height: 40px;
@@ -105,4 +111,43 @@ padding-top: 10px;
 }
 .Contact{
     float: right;
+}
+@media screen and (max-width: 787px) {
+
+    .container{
+        flex-direction: column;
+    }
+    .content{
+        padding-top: 70px;
+    }
+    .hero1{
+        left: 500px;
+    }
+    .hero2{
+        left: 300px;
+    }
+}
+@media screen and (max-width: 485px) {
+
+  
+    .content{
+        padding-top: 40px;
+        padding-left: 30px;
+    }
+    .title{
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .sahyadri{
+        font-size: 35px;
+    }
+    .Landingpagecontent{
+        font-size: 15px;
+    }
+    .hero1{
+        left: 300px;
+    }
+    .hero2{
+        left: 200px;
+    }
 }

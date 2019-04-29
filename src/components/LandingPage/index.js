@@ -35,7 +35,6 @@ const LandingPage = ({ props }) => (
           <br />
           <p className={style.Landingpagecontent}>
             Provied native app and Web Development skills for Students to Help{" "}
-            <br />
             them work towards Employability
           </p>
           <div className={style.landingfooter}>

@@ -6,7 +6,7 @@
     background-color: rgba(6, 28, 75);
     margin-top: 100px;
     width: 100%;
-    height: 250px;;
+    height: 100%;;
    
 }
 .content{
@@ -38,4 +38,16 @@
   padding-top: 15px;
     color: white;
     margin: 0;
+}
+@media screen and (max-width:787px){
+    .content{
+        flex-direction: column;
+    }
+    .guide{
+        padding-top: 30px;
+    }
+    .address{
+        margin-top: 50px;
+        padding-bottom:50px; 
+    }
 }

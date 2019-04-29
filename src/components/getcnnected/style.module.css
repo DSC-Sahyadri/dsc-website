@@ -1,8 +1,8 @@
 .image{
     width: 500px;
     height: 150px;
-    position: relative;
-    bottom: 50px;
+   
+   
 }
 .container{
     padding-left: 100px;
@@ -12,7 +12,7 @@
     font-size: 40px;
     font-family:'Open Sans',sans-serif;
     font-weight: 800;
-   
+   line-height: 50px;
     color: black;
 }
 .content{
@@ -21,7 +21,8 @@
     justify-content: space-evenly;
 }
 .info{
-    width: 500px;
+    width: 100%;
+    max-width: 500px;;
     font-family:'Open Sans',sans-serif;
     font-weight: 400;
     font-size: 15px;
@@ -48,4 +49,36 @@
     font-size: 15px;
     background-color: rgb(9, 33, 70);
     border: none;
+}
+@media screen and (max-width:850px)
+{
+    .image{
+        padding-top: 70px;
+    }
+}
+@media screen and (max-width:787px)
+{
+    .content{
+        flex-direction: column;    }
+        .image{
+            width: 400px;
+            order: 2;
+            position: inherit;
+            margin-bottom:190px; 
+        }
+        .container{
+            padding-left: 50px;
+        }
+}
+@media screen and (max-width:480px)
+{
+    .image{
+        width: 300px;
+    }
+    .title{
+        font-size: 35px;
+    }
+    .info{
+        font-size: 15px;
+    }
 }

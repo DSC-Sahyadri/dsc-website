@@ -28,10 +28,12 @@ const About =({ props })=> (
              
               </div>
               <div className={style.wrapper}>
+              <div className={style.image}>
               <Img
             fluid={data.imageFirst.childImageSharp.fluid}
             className={style.about}
           />
+          </div>
           <div className={style.aboutwrap}>
           <div className={style.titlewrap}><p className={style.title}>About </p><p className={style.dsc}> DSC</p></div> 
               <div className={style.underline}></div>
