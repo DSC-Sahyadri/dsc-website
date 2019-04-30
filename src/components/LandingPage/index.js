@@ -27,8 +27,6 @@ const LandingPage = ({ props }) => (
       <div>
       <div className={style.container}>
         <div className={style.content}>
-          <p className={style.DSCS}>DSCS</p>
-
           <p className={style.title}>Developer Students Club</p>
           <br />
           <p className={style.sahyadri}>Sahyadri</p>
@@ -37,7 +35,6 @@ const LandingPage = ({ props }) => (
           <br />
           <p className={style.Landingpagecontent}>
             Provied native app and Web Development skills for Students to Help{" "}
-            <br />
             them work towards Employability
           </p>
           <div className={style.landingfooter}>

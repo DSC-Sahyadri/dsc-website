@@ -4,6 +4,8 @@ import SEO from "../components/seo"
 import LandingPage from '../components/LandingPage/index'
 import About from '../components/About/index'
 import Techstacks from '../components/techstacks/index'
+import Getconncted from '../components/getcnnected/index'
+import Footer from '../components/footer/index'
 
 const IndexPage = () => (
   <Layout>
@@ -12,7 +14,9 @@ const IndexPage = () => (
     <LandingPage />
    <About />
   <Techstacks />
-  </Layout>
+  <Getconncted />
+  <Footer />
+    </Layout>
 )
 
 export default IndexPage
