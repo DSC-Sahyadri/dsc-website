@@ -10,7 +10,7 @@ const LandingPage = ({ props }) => (
       fragment LandingSiteImages on File {
         childImageSharp {
           fluid(maxWidth: 500) {
-            ...GatsbyImageSharpFluid_noBase64
+            ...GatsbyImageSharpFluid_tracedSVG
           }
         }
       }
