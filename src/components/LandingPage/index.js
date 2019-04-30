@@ -10,7 +10,7 @@ const LandingPage = ({ props }) => (
       fragment LandingSiteImages on File {
         childImageSharp {
           fluid(maxWidth: 500) {
-            ...GatsbyImageSharpFluid_noBase64
+            ...GatsbyImageSharpFluid_tracedSVG
           }
         }
       }
@@ -34,7 +34,7 @@ const LandingPage = ({ props }) => (
           <br />
           <br />
           <p className={style.Landingpagecontent}>
-            Provied native app and Web Development skills for Students to Help{" "}
+            Provide native app and Web Development skills for Students to Help{" "}
             them work towards Employability
           </p>
           <div className={style.landingfooter}>

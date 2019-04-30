@@ -4,7 +4,7 @@
 .card{
     width: 280px;
     height:380px;
-    border-radius:15px ;
+   background-color: white;
     margin-top:50px; 
    display: flex;
    justify-content: space-evenly;
@@ -13,6 +13,7 @@
 
 .container{
     padding-top:120px;
+    
 
 }
 .title{
@@ -33,9 +34,10 @@
 
 }
 .cardholder{
-    padding-top:50px;
+    margin-top: 50px;
+    padding-bottom: 50px;
     display: flex;
-    
+    background-color: #f3f3f3;
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
@@ -45,8 +47,7 @@
    
 }
 .android{
-    border-top-right-radius:15px; 
-    border-top-left-radius:15px; 
+   
     height: 190px;
 
     width:280px;

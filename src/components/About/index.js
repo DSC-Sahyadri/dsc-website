@@ -10,7 +10,7 @@ const About =({ props })=> (
     fragment AboutSiteImages on File {
       childImageSharp {
         fluid(maxWidth: 1000) {
-          ...GatsbyImageSharpFluid_noBase64
+          ...GatsbyImageSharpFluid_tracedSVG
         }
       }
     }
