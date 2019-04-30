@@ -70,6 +70,8 @@ p{
     font-weight: 400;
     font-size: 18px;
     position: relative;
+    padding-right: 50px;
+    width: 80%;
     color: rgb(0, 0, 0,0.6)
 }
 
@@ -135,11 +137,14 @@ padding-top: 10px;
         padding-left: 30px;
     }
     .title{
-        font-size: 35px;
-        line-height: 40px;
+        font-size: 28px;
+        line-height: 35px;
     }
     .sahyadri{
-        font-size: 35px;
+        font-size: 28px;
+        line-height: 20px;
+     
+       
     }
     .Landingpagecontent{
         font-size: 15px;

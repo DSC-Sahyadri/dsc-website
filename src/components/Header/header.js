@@ -2,6 +2,7 @@ import React from "react";
 import style from "./Style.module.css";
 import { StaticQuery, graphql } from "gatsby";
 import Img from "gatsby-image";
+import { Link } from "gatsby"
 const Header = ({ props }) => (
   <StaticQuery
     query={graphql`
@@ -36,10 +37,10 @@ const Header = ({ props }) => (
            </div>
             <div className={style.list}>
               <ul className={style.ullist}>
-                <li>Home</li>
-                <li>Events</li>
-                <li>Projects</li>
-                <li>Blogs</li>
+                <div><Link className={style.links} activeClassName={style.activelink}       to="/">Home</Link></div>
+                <div> <Link className={style.links}  activeClassName={style.activelink}  to="/Events">Events</Link></div>
+                <div><Link className={style.links}  activeClassName={style.activelink}  to="/page-2/">Team</Link></div>
+                <div>  <Link  className={style.links}  activeClassName={style.activelink}  to="/Blogs">Blogs</Link></div>
               </ul>
             </div>
           </div>
