@@ -21,14 +21,23 @@ const LandingPage = ({ props }) => (
         imageSecond: file(relativePath: { eq: "hero1.png" }) {
           ...LandingSiteImages
         }
+        imageThird: file(relativePath: {eq:"logo2.png"}){
+          ...LandingSiteImages
+        }
       }
     `}
     render={data => (
       <div>
       <div className={style.container}>
         <div className={style.content}>
+        {/* <div className={style.image2}>
+        <Img
+            fluid={data.imageThird.childImageSharp.fluid}
+            className={style.hero1}
+          />
+        </div> */}
           <p className={style.title}>Developer Students Club</p>
-          <br />
+      
           <p className={style.sahyadri}>Sahyadri</p>
 
           <br />
