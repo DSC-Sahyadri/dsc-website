@@ -15,7 +15,7 @@ const About =({ props })=> (
       }
     }
     query{
-    imageFirst: file(relativePath: { eq: "about.png" }) {
+    imageFirst: file(relativePath: { eq: "images/about.png" }) {
       ...AboutSiteImages
     }
   
@@ -35,7 +35,7 @@ const About =({ props })=> (
           />
           </div>
           <div className={style.aboutwrap}>
-          <div className={style.titlewrap}><p className={style.title}>About </p><p className={style.dsc}> DSC</p></div> 
+          <div className={style.titlewrap}><p className={style.title}>About</p><p className={style.dsc}> DSC</p></div> 
               <div className={style.underline}></div>
               <p className={style.content}>The Developer Student Clubs (DSC) program is a grassroots channel through which we provide development 
               skills for students, towards employability. In addition to workshops, we also provide an opportunity for students to apply their newly 

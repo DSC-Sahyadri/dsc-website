@@ -15,13 +15,13 @@ const LandingPage = ({ props }) => (
         }
       }
       query {
-        imageFirst: file(relativePath: { eq: "hero2.png" }) {
+        imageFirst: file(relativePath: { eq: "images/hero2.png" }) {
           ...LandingSiteImages
         }
-        imageSecond: file(relativePath: { eq: "hero1.png" }) {
+        imageSecond: file(relativePath: { eq: "images/hero1.png" }) {
           ...LandingSiteImages
         }
-        imageThird: file(relativePath: {eq:"logo2.png"}){
+        imageThird: file(relativePath: {eq:"images/logo2.png"}){
           ...LandingSiteImages
         }
       }

@@ -14,16 +14,16 @@ const techstacks = ({ props }) => (
         }
       }
       query{
-      imageFirst: file(relativePath: { eq: "android.jpg" }) {
+      imageFirst: file(relativePath: { eq: "images/android.jpg" }) {
         ...techstackSiteImages
       }
-      imageSecond: file(relativePath: { eq: "web.jpg" }) {
+      imageSecond: file(relativePath: { eq: "images/web.jpg" }) {
         ...techstackSiteImages
       }
-      imageThird: file(relativePath: { eq: "ml.jpg" }) {
+      imageThird: file(relativePath: { eq: "images/ml.jpg" }) {
         ...techstackSiteImages
       }
-      imageFour: file(relativePath: { eq: "cld.jpg" }) {
+      imageFour: file(relativePath: { eq: "images/cld.jpg" }) {
         ...techstackSiteImages
       }
     

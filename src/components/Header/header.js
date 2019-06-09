@@ -14,7 +14,7 @@ const Header = ({ props }) => (
       }
     }
     query{
-    imageFirst: file(relativePath: { eq: "dsc-logo2.png" }) {
+    imageFirst: file(relativePath: { eq: "images/dsc-logo2.png" }) {
       ...firstSiteImages
     }
   
@@ -38,7 +38,7 @@ const Header = ({ props }) => (
             <div className={style.list}>
               <ul className={style.ullist}>
                 <div><Link className={style.links} activeClassName={style.activelink}       to="/">Home</Link></div>
-                <div> <Link className={style.links}  activeClassName={style.activelink}  to="/Events">Events</Link></div>
+                <div> <Link className={style.links}  activeClassName={style.activelink}  to="/events">Events</Link></div>
                 <div><Link className={style.links}  activeClassName={style.activelink}  to="/page-2/">Team</Link></div>
                 <div>  <Link  className={style.links}  activeClassName={style.activelink}  to="/Blogs">Blogs</Link></div>
               </ul>
