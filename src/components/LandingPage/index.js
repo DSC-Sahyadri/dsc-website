@@ -15,10 +15,13 @@ const LandingPage = ({ props }) => (
         }
       }
       query {
-        imageFirst: file(relativePath: { eq: "hero2.png" }) {
+        imageFirst: file(relativePath: { eq: "images/hero2.png" }) {
           ...LandingSiteImages
         }
-        imageSecond: file(relativePath: { eq: "hero1.png" }) {
+        imageSecond: file(relativePath: { eq: "images/hero1.png" }) {
+          ...LandingSiteImages
+        }
+        imageThird: file(relativePath: {eq:"images/logo2.png"}){
           ...LandingSiteImages
         }
       }
@@ -27,8 +30,14 @@ const LandingPage = ({ props }) => (
       <div>
       <div className={style.container}>
         <div className={style.content}>
+        {/* <div className={style.image2}>
+        <Img
+            fluid={data.imageThird.childImageSharp.fluid}
+            className={style.hero1}
+          />
+        </div> */}
           <p className={style.title}>Developer Students Club</p>
-          <br />
+      
           <p className={style.sahyadri}>Sahyadri</p>
 
           <br />
