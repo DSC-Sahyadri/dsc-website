@@ -15,7 +15,7 @@ const getconncted =( {data} )=>(
       }
     }
     query{
-    imageFirst: file(relativePath: { eq: "gc.png" }) {
+    imageFirst: file(relativePath: { eq: "images/gc.png" }) {
       ...gcSiteImages
     }
   
