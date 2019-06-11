@@ -1,3 +1,5 @@
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800');
 .page
 {
     margin-top:5px; 
@@ -6,5 +8,23 @@
 .container
 {
     padding-top: 35px;
-   
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-bottom:40px; 
+}
+.title
+{
+    text-align: center;
+    padding-top:25px; 
+    font-family:'Open Sans',sans-serif;
+    font-weight: 700;
+    color: rgba(0,0,0,0.7);
+    font-size: 30px;
+
+}
+.wrapper
+{
+    margin-right: 40px;
+    margin-left: 40px; 
 }

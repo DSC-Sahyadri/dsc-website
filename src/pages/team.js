@@ -29,7 +29,10 @@ const SecondPage = ({data}) => (
   <Layout>
     <SEO title="Page two" />
   <div className={style.page}>
+    <div className={style.wrapper}>
+    <p className={style.title}>Core Members</p>
     <div className={style.container}>  {getMembers(data)}</div>
+    </div>
   </div>
   
     
@@ -41,6 +44,7 @@ export default SecondPage
 export const teamQuery = graphql`
 query memberQuery{
   allMarkdownRemark(
+    sort: { fields: [frontmatter___id], order: DESC }
     filter: { fileAbsolutePath: { regex: "/members/.*md$/" } }
   ){
     totalCount
@@ -50,6 +54,7 @@ query memberQuery{
           designation
           name
           username
+          id
          
         }
       }
