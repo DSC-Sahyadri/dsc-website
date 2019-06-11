@@ -43,8 +43,9 @@ const LandingPage = ({ props }) => (
           <br />
           <br />
           <p className={style.Landingpagecontent}>
-            Provide native app and Web Development skills for Students to Help{" "}
-            them work towards Employability
+            Developer Student Clubs (DSC) is a Google Developers program for university students to learn mobile and web development 
+            skills. 
+            
           </p>
           <div className={style.landingfooter}>
      

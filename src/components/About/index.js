@@ -24,9 +24,7 @@ const About =({ props })=> (
     `}
       render ={data => (
           <div className={style.container}>
-              <div>
-             
-              </div>
+          
               <div className={style.wrapper}>
               <div className={style.image}>
               <Img

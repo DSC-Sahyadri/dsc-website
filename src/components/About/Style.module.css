@@ -5,9 +5,13 @@
     font-weight: 800;
     text-align: left;
  
-   
 
 }
+.image
+{
+    width: 80%;
+}
+
 .dsc{
     font-family:'Open Sans',sans-serif;
     font-size: 55px;
@@ -20,8 +24,8 @@
 
 }
 .container{
-    padding-top: 120px;
-    padding-left: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 .content{
     font-family:'Open Sans',sans-serif;
@@ -33,8 +37,9 @@
 
 .wrapper{
     display: flex;
-    justify-content: space-evenly;
-    padding-right:100px; 
+   
+    justify-content: center;
+    
 }
 .aboutwrap{
     padding-top: 110px;
