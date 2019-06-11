@@ -15,7 +15,7 @@ const IndexPage = () => (
    <About />
   <Techstacks />
   <Getconncted />
-  <Footer />
+  
     </Layout>
 )
 

@@ -1,12 +1,12 @@
 .image{
-    width: 500px;
-    height: 150px;
+    height: 100px;
+    width: 30%;;
    
    
 }
 .container{
-    padding-left: 100px;
-   
+padding-top: 80px;
+padding-bottom: 80px;   
 }
 .title{
     font-size: 40px;
@@ -16,7 +16,7 @@
     color: black;
 }
 .content{
-    padding-right: 100px;
+    
     display: flex;
     justify-content: space-evenly;
 }
@@ -53,7 +53,8 @@
 @media screen and (max-width:850px)
 {
     .image{
-        padding-top: 70px;
+    height:300px; ;
+       width: 50%;
     }
 }
 @media screen and (max-width:787px)
@@ -61,10 +62,11 @@
     .content{
         flex-direction: column;    }
         .image{
-            width: 400px;
+            width: 80%;
             order: 2;
+            margin-top: 20px;
             position: inherit;
-            margin-bottom:190px; 
+            margin-bottom:100px; 
         }
         .container{
             padding-left: 50px;
@@ -73,12 +75,16 @@
 @media screen and (max-width:480px)
 {
     .image{
-        width: 300px;
+        width: 80%;
+        margin-bottom:0px; 
     }
     .title{
         font-size: 35px;
     }
     .info{
         font-size: 15px;
+    }
+    .container{
+        padding-left: 20px;
     }
 }
