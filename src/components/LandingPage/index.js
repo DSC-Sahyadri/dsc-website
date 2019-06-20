@@ -40,8 +40,7 @@ const LandingPage = ({ props }) => (
       
           <p className={style.sahyadri}>Sahyadri</p>
 
-          <br />
-          <br />
+         
           <p className={style.Landingpagecontent}>
             Developer Student Clubs (DSC) is a Google Developers program for university students to learn mobile and web development 
             skills. 

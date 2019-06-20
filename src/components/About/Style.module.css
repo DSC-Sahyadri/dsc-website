@@ -10,8 +10,10 @@
 }
 .image
 {   
+    width: 100%;
     margin-top:50px; 
-    width: 90%;
+    max-width: 700px;
+   
 }
 
 .dsc{
@@ -25,27 +27,28 @@
    
 
 }
-.container{
-  margin-left: 120px;
-  margin-right: 120px;
+.container
+{
+    margin-right:100px;
+    margin-left:100px;  
 }
 .content{
     font-family: 'Varela Round', sans-serif;
     padding-top: 40px;
-    width: 100%;
+   
     font-size: 17px;
     color: rgb(0, 0, 0,0.8)
 }
 
 .wrapper{
     display: flex;
-   
     justify-content: center;
     
 }
 .aboutwrap{
-    padding-top: 110px;
-    padding-left: 70px;
+    width: 90%;
+  margin-top: 110px;  
+  margin-left: 70px;
     
 }
 .titlewrap{
@@ -58,6 +61,7 @@
     padding: 5px;
     width: 180px;
     height: 40px;
+    margin-top: 20px;
     font-family: 'Varela Round', sans-serif;
     font-weight: 700;
     color: white;
@@ -77,73 +81,33 @@
     margin-top: 30px;
    
 }
-.about{
-   width: 500px;
-   height: 100%;;
 
+.about
+{
+    width: 100%;
+    max-height: 420px;
+    max-width: 700px;
 }
-    
-    
 
-@media screen and (max-width: 787px) {
+@media screen and (max-width:1280px)
+{
 
-    .wrapper{
-        flex-direction: column;
-        padding-right: 50px;
-    }
-    .image{
-        padding-top: 0px;
-        order: 2;
-    }
-    .about{
-        width: 600px;
-        height: 400px;;
-    }
-    .container{
-        padding-right: 50px;
-        padding-left: 50px;
-        padding-top: 70px;
-    }
+   
+}  
+
+@media screen and (max-width: 768px) {
+
+  
+  
    
 }
 @media screen and (max-width: 1044px) {
 
-    .about{
-        width: 500px;
-        height: 400px;;
-       
+  
     
-    }
-    .image{
-        padding-top: 100px;
-       
-    }
-    .aboutwrap{
-        padding-left: 20px;
-       
-    }
         
 }
 @media screen and (max-width:480px){
-    .title,.dsc{
-        font-size: 35px;
+   
 
-    }
-    .content{
-        font-size: 15px;
-    }
-    .container{
-        padding-right: 0px;
-        padding-left: 20px;
-    }
-    .wrapper{
-        padding-right: 20px;
-    }
-    .image{
-        padding-top: 50px;
-    }
-    .about{
-        width: 300px;
-        height: 200px;;
-    }
 }
