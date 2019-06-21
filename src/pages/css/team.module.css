@@ -28,3 +28,11 @@
     margin-right: 40px;
     margin-left: 40px; 
 }
+@media screen and (max-width:480px)
+{
+    .wrapper
+    {
+        margin-right:0px;
+        margin-left: 0px;; 
+    }
+}
