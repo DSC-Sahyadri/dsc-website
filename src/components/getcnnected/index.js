@@ -32,7 +32,7 @@ const getconncted =( {data} )=>(
             className={style.about}
           />
               </div>
-              <div>
+              <div className={style.textcontent}>
               <p className={style.title}> Get connected.</p>
               <div className={style.underline}></div>
               <p className={style.info}>Meet people with similar interest to work together on projects and host events to build a better collaborative environment. We are more than 100 members with interests on various fields of technology here to know each other and get connected. 
