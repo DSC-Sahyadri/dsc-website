@@ -6,9 +6,8 @@ body{
 }
 .container{
    display: flex;
-   margin-left: 30px;
-   margin-right: 30px;
-
+   margin-left: 100px;
+   margin-right: 100px;
    justify-content: space-evenly;
 }
 body{
@@ -122,6 +121,8 @@ padding-top: 10px;
 .Contact{
     float: right;
 }
+
+
 @media screen and (max-width: 1280px) {
 
     .content
@@ -129,7 +130,14 @@ padding-top: 10px;
        padding-left: 50px;
       padding-top: 90px;
    }
+   .container
+   {
+       margin-right: 40px;
+       margin-left:40px; 
+   }
+   
 }
+
 @media screen and (max-width: 768px) {
 
 
@@ -176,4 +184,12 @@ padding-top: 10px;
        margin-top: 30px;
    }
 }
+/* @media screen and (max-width:1920px)
+{
+    .container
+   {
+       margin-right: 160px;
+       margin-left:160px; 
+   }
+} */
 

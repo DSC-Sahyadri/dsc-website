@@ -4,8 +4,9 @@ import EventCard from '../components/Event-card/event-card'
 import Layout from "../components/layout"
 import style from './css/event.module.css'
 import moment from 'moment'
+import { get } from "http";
 
-
+var eventscount=0;
 
 function getUpcomingEvents(data)
 {
@@ -19,9 +20,10 @@ function getUpcomingEvents(data)
   eventList.map(({ node }) => {
     let date=node.frontmatter.date;
     let eventDate = moment(date, 'DD-MMM-YYYY')
+   
+
     if (today < eventDate._d) {
-      
-    
+       eventscount++; 
 
     return Upcomingevents.push(
       <EventCard
@@ -88,17 +90,27 @@ function getRecentEvents(data)
 // }
 
 
-
-const EventsPage = ({data}) => (
-  <Layout>
-   <div className={style.page}>
-  <div className={style.container}>
-    <div>
+function getEvents(data)
+{
+  {getUpcomingEvents(data)}
+if(eventscount!=0)
+{
+  return(
+  <div>
   <div className={style.title_wrap}> <p className={style.title}>Upcoming Events</p>
   {/* <div className={style.underline}></div> */}
   </div> 
   {getUpcomingEvents(data)}
   </div>
+  )
+}
+
+}
+const EventsPage = ({data}) => (
+  <Layout>
+   <div className={style.page}>
+  <div className={style.container}>
+   {getEvents(data)}
 
   <div>
   <div className={style.title_wrap}> <p className={style.title}>Recent Events</p>
