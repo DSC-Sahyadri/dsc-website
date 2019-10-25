@@ -20,7 +20,7 @@ const event_card= props =>(
                     />
              <div className={style.card_text_holder}>
                  <div className={style.card_text}>
-                     <p className={style.event_title}>{props.title}</p>
+                     <Link to={props.slug} className={style.linktitle} ><p className={style.event_title}>{props.title}</p></Link>
                      <div className={style.event_info}>
                          <img src={Dateicon} className={style.event_date_icon} alt="date icon" />
                          <p className={style.event_date}>{props.date}</p>

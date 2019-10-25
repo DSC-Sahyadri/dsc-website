@@ -83,9 +83,9 @@ const techstacks = ({ props }) => (
         </div>
         
         </div>
-        <div className={style.cardholder2}>
+     
         
-        </div>
+        
         </div>
       )}
     />
